@@ -61,7 +61,7 @@ export default {
       this.isVerified = true;
 
       setTimeout(() => {
-        this.$router.push('https://www.cainconstructionllc.com/');
+        window.location.href = 'https://www.cainconstructionllc.com/';
       }, 1000);
     },
   },
